@@ -22,7 +22,7 @@ class ImageItem extends StatelessWidget {
           padding: const EdgeInsets.all(8),
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('assets/1.jpg'),
+              image: AssetImage(img),
               fit: BoxFit.cover,
             ),
           ),
